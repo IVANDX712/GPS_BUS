@@ -73,12 +73,53 @@ public class ProgramaBuses {
         paradasFeriado1.add("Estación X");
         paradasFeriado1.add("Estación Y");
         paradasFeriado1.add("Estación Z");
+        
+         List<String> paradasG42 = new ArrayList<>();
+        paradasG42.add("Estación A");
+        paradasG42.add("Estación B");
+        paradasG42.add("Estación C");
+        
+        List<String> paradasFeriado2 = new ArrayList<>();
+        paradasFeriado2.add("Estación X");
+        paradasFeriado2.add("Estación Y");
+        paradasFeriado2.add("Estación Z");
+        
+         List<String> paradasG44 = new ArrayList<>();
+        paradasG44.add("Estación A");
+        paradasG44.add("Estación B");
+        paradasG44.add("Estación C");
 
+        List<String> paradasFeriado3 = new ArrayList<>();
+        paradasFeriado3.add("Estación X");
+        paradasFeriado3.add("Estación Y");
+        paradasFeriado3.add("Estación Z");
+        
+         List<String> paradasG45 = new ArrayList<>();
+        paradasG44.add("Estación A");
+        paradasG44.add("Estación B");
+        paradasG44.add("Estación C");
+
+        List<String> paradasFeriado4 = new ArrayList<>();
+        paradasFeriado4.add("Estación X");
+        paradasFeriado4.add("Estación Y");
+        paradasFeriado4.add("Estación Z");
+        
+        
         // Agregar rutas de buses a la lista
         buses.add(new Bus("G43", paradasG43));
         buses.add(new Bus("Feriado1", paradasFeriado1));
-
-        return buses;
+        
+        buses.add(new Bus("G42", paradasG42));
+        buses.add(new Bus("Feriado2", paradasFeriado2));
+        
+        buses.add(new Bus("G44", paradasG44));
+        buses.add(new Bus("Feriado3", paradasFeriado3));
+        
+        buses.add(new Bus("G45", paradasG45));
+        buses.add(new Bus("Feriado4", paradasFeriado4));
+        
+ return buses;
+       
     }
 
     private static Bus buscarBusPorRuta(List<Bus> buses, String numeroRuta) {
