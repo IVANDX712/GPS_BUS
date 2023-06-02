@@ -1,2 +1,2 @@
 # GPS_BUS
-Programa enfocado en las consultas de las programaciones de los buses
+Programa enfocado en realizar consultas de las programaciones de los buses de la entidad SIPT. 
