@@ -1,2 +1,2 @@
-# Codigo creacion de una funcion
+# Construccion de una funcion
 
